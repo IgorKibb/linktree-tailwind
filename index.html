@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Link Arvore</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+   <script src="https://cdn.tailwindcss.com"></script>
+   <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+               rxp: '#9932B8',
+               lilas: '#AF89B8',
+               corpo: '#FFE8FF',
+               texto: '#5DBAB2'
+            },
+          fontFamily:{
+            quicksand: ['Quicksand', sans-serif],
+          }
+        }
+      }
+    }
+  </script>
+
+  
+</head>
+<body class="bg-gray-50  flex flex-col justify-center items-center text-center">
+   <div class="mx-0 my-3 mt-10 ">
+      <img src="/assets/img/perfil.jpg" class=" rounded-full border-8 border-double  border-fuchsia-300 w-44 md:w-60 drop-shadow">
+      <h1 class="mt-2 font-sans text-2xl text-emerald-700 drop-shadow" id="nome">Igor Fonseca</h1>
+   </div>
+   <section >
+      <div class="py-2">
+      <div class="flex border-2 border-emerald-700 shadow-lg mt-7 rounded-tl-full rounded-br-full	">
+          <a class="p-2 px-20 md:px-60 mx-5 md:mx-10 flex items-center gap-2 font-sans text-xl text-emerald-800 drop-shadow" href="https://www.linkedin.com/in/igor-fonseca-1a7ab143/" target="_blank"><img src="/assets/img/linkedin-svgrepo-com.svg" class="w-8 border-6 border-double">Linkedin</a>
+        </div>
+        <div class="flex border-2 border-emerald-700 shadow-lg mt-7 rounded-tl-full rounded-br-full	">
+          <a class="p-2 px-20 md:px-60 mx-5 md:mx-10 flex items-center gap-2 font-sans text-xl text-emerald-800 drop-shadow" href="https://github.com/IgorKibb" target="_blank"><img src="/assets/img/github-svgrepo-com.svg" class="w-8 border-6 border-double">Github</a>
+      </div>
+      <div class="flex border-2 border-emerald-700 shadow-lg mt-7 rounded-tl-full rounded-br-full	">
+        <a class="p-2 px-20 md:px-60 mx-5 md:mx-10 flex items-center gap-2 font-sans text-xl text-emerald-800 drop-shadow" href="https://www.linkedin.com/in/igor-fonseca-1a7ab143/" target="_blank"><img src="/assets/img/code-svgrepo-com.svg" class="w-8 border-6 border-double">Repositório</a>
+      </div>
+   </section>
+   <footer  class="w-screen pt-5 invisible">
+    <div class="bg-emerald-700">
+      <p class="text-xl font-thin text-gray-50 px-10">Este é um pequeno trabalho com o objetivo de aprender tailwind.
+        Você pode ver melhor no repositório listado acima!
+      </p>
+    </div>
+ </footer>
+   
+   <script src="/assets/main.js"></script>
+</body>
+</html>
